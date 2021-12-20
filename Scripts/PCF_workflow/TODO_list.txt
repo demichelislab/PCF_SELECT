@@ -1,0 +1,32 @@
+[]	peak_correction.R (includes GermlineModel generation)
+		[]
+[]	Segmentation_BetaComputation_PS.R
+		[]
+[]	TC_estimation.R
+		[]
+[]	generate_focal_tables.R
+		[]
+[]	generate_allelic_imbalance_log2_tables.R
+		[]
+[]	MAKE_CN_SNVs_Calls.R
+		[] requires ABEMUS + Oncotator
+[]	correct_VAF.R
+		[] requires ABEMUS + Oncotator 
+
+others:
+[]	SPIA: runSPIA.R
+		[]
+[]	Check unexpected imbalances in matched control: plot_check_control_samples.R
+		[]
+[]	Log2_Beta: Plot_Log2_Beta.R
+		[] plotrix lib is only available from R 4.0.0
+[]	Log2_Beta: Plot_Log2_Beta_chr_v2.R
+		[]
+[]	cnA_cnB: plot_allelicImbalance.R
+		[]
+[]	Oncoprint: oncoprint_colorCode.R
+		[] Check if matrices are non-empty (no samples with low or high TC)
+[]	Multipanel: plot_MultiPanel.R
+		[]
+[]	SNVs AF distribution: Plot_SNV_AF.R
+		[]
