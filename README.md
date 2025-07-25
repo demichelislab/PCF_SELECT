@@ -9,7 +9,7 @@
     + [Sample Information File (SIF)](#sample-information-file--sif-)
   * [List apps present in the singularity package](#list-apps-present-in-the-singularity-package)
   * [Run apps other than PCFS](#run-apps-other-than-pcfs)
-- [Acknowledgments](#acknow)
+- [Acknowledgements](#acknow)
 
 ## Introduction <a name="intro"></a>
 
@@ -90,11 +90,11 @@ optional arguments:
                         Number of available cores for the analysis
 ```
 
-## Acknowledgments <a name="acknow"></a>
+## Acknowledgements <a name="acknow"></a>
 | Author | Institution | Contribution |
 | --------- | ----------- | ------------ |
-| Francesco Orlando, PhD | CIBIO, University of Trento | Main author of PCF\_SELECT |
+| Francesco Orlando, PhD | Department of CIBIO, University of Trento | Main author of PCF\_SELECT |
 | Stefano Pirrò, PhD | Cancer Institute, UCL | Porting of PCF\_SELECT on singularity |
 | Osvaldas Vainauskas | Cancer Institute, UCL | Contributor |
-| Prof. Francesca Demichelis | CIBIO, University of Trento | Principal Investigator |
+| Prof. Francesca Demichelis | Department of CIBIO, University of Trento | Principal Investigator |
 | Prof. Gerhardt Attard | Cancer Institute, UCL | Principal Investigator |
