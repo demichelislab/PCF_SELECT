@@ -1,19 +1,22 @@
 # PCF\_SELECT - Singularity package
 
-| Author | Institution | Contribution |
-| --------- | ----------- | ------------ |
-| Francesco Orlando, PhD | CIBIO, University of Trento | Main author of PCF\_SELECT |
-| Stefano Pirrò, PhD | Cancer Institute, UCL | Porting of PCF\_SELECT on singularity |
-| Osvaldas Vainauskas | Cancer Institute, UCL | Contributor |
-| Prof. Francesca Demichelis | CIBIO, University of Trento | Principal Investigator |
-| Prof. Gerhardt Attard | Cancer Institute, UCL | Principal Investigator |
+[![DOI](https://zenodo.org/badge/DOI/10.1093/narcan/zcac016.svg)](https://doi.org/10.1093/narcan/zcac016)
 
+- [Introduction](#intro)
 - [Execute the PCF\_SELECT pipeline](#execute-pcf)
   * [Declare the environment variables](#declare-the-environment-variables)
   * [Run the whole PCF\_SELECT pipeline](#run-the-whole-pcfs-pipeline)
     + [Sample Information File (SIF)](#sample-information-file--sif-)
   * [List apps present in the singularity package](#list-apps-present-in-the-singularity-package)
   * [Run apps other than PCFS](#run-apps-other-than-pcfs)
+- [Acknowledgments](#acknow)
+
+## Introduction <a name="intro"></a>
+
+This repository provides the **Singularity packages** to run the PCF\_SELECT pipeline described in:  
+**[Allele-informed copy number evaluation of plasma DNA samples from metastatic prostate cancer patients: the PCF_SELECT consortium assay - Orlando et al., NAR Cancer (2022)](https://doi.org/10.1093/narcan/zcac016)**  
+
+Depending on the panel version, a specific Singularity package must be used (available under [`singularity/versions/`](singularity/versions/)).  
 
 ## Execute the PCF\_SELECT pipeline <a name="execute-pcf"></a>
 
@@ -86,3 +89,12 @@ optional arguments:
   -n NCORES, --nCores NCORES
                         Number of available cores for the analysis
 ```
+
+## Acknowledgments <a name="acknow"></a>
+| Author | Institution | Contribution |
+| --------- | ----------- | ------------ |
+| Francesco Orlando, PhD | CIBIO, University of Trento | Main author of PCF\_SELECT |
+| Stefano Pirrò, PhD | Cancer Institute, UCL | Porting of PCF\_SELECT on singularity |
+| Osvaldas Vainauskas | Cancer Institute, UCL | Contributor |
+| Prof. Francesca Demichelis | CIBIO, University of Trento | Principal Investigator |
+| Prof. Gerhardt Attard | Cancer Institute, UCL | Principal Investigator |
