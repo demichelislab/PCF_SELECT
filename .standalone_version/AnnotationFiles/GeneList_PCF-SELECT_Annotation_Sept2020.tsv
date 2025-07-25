@@ -1,0 +1,117 @@
+hgnc_symbol	chromosome_name	start_position_hg19	end_position_hg19	cytoband	PCF_SELECT	FoundationOne_Liquid	Guardant360	BROCA v7	Description	Oncogene/TS	IsDNARepair	DNARepairPathway
+AKT1	14	105235686	105262088	q32.33	yes	yes	yes	yes	v-akt murine thymoma viral oncogene homolog 1 [Source:HGNC Symbol;Acc:391]	oncogene		
+AKT2	19	40736224	40791443	q13.2	yes				v-akt murine thymoma viral oncogene homolog 2 [Source:HGNC Symbol;Acc:392]	oncogene		
+AKT3	1	243651535	244014381	q44	yes				v-akt murine thymoma viral oncogene homolog 3 [Source:HGNC Symbol;Acc:393]	oncogene		
+APC	5	112043195	112181936	q22.2	yes	yes		yes	adenomatosis polyposis coli [Source:HGNC Symbol;Acc:583]	TS		
+AR	X	66764465	66950461	q12	yes	yes	yes		dihydrotestosterone receptor [Source:HGNC Symbol;Acc:644]	oncogene		
+ARID1A	1	27022524	27108595	p36.11	yes				AT rich interactive domain 1A (SWI- like) [Source:HGNC Symbol;Acc:11110]	TS		
+ASXL1	20	30946155	31027122	q11.21	yes				additional sex combs like 1 (Drosophila) [Source:HGNC Symbol;Acc:18318]	TS		
+ATM	11	108093211	108239829	q22.3	yes	yes	yes	yes	ataxia telangiectasia mutated [Source:HGNC Symbol;Acc:795]	TS	yes	ATM;FA;HR;NHEJ
+ATR	3	142168077	142297668	q23	yes				ataxia telangiectasia and Rad3 related [Source:HGNC Symbol;Acc:882]	TS	yes	FA
+AURKA	20	54944445	54967393	q13.2	yes				serine/threonine kinase 6 [Source:HGNC Symbol;Acc:11393]	oncogene		
+BRAF	7	140419127	140624564	q34	yes	yes	yes		v-raf murine sarcoma viral oncogene homolog B [Source:HGNC Symbol;Acc:1097]	oncogene		
+BRCA1	17	41196312	41277500	q21.31	yes	yes		yes	breast cancer 1 early onset [Source:HGNC Symbol;Acc:1100]	TS	yes	ATM;FA;HR;NHEJ
+BRCA2	13	32889611	32973805	q13.1	yes	yes		yes	Fanconi anemia complementation group D1 [Source:HGNC Symbol;Acc:1101]	TS	yes	FA;HR;NER
+CCND1	11	69455855	69469242	q13.3	yes	yes			cyclin D1 (PRAD1: parathyroid adenomatosis 1) [Source:HGNC Symbol;Acc:1582]	oncogene		
+CDK12	17	37617764	37721160	q12	yes	yes			Cdc2-related kinase arginine/serine-rich [Source:HGNC Symbol;Acc:24224]	TS		
+CDK4	12	58141510	58149796	q14.1	yes	yes		yes	cyclin dependent kinase 4 [Source:HGNC Symbol;Acc:1773]	TS		
+CDK6	7	92234235	92465908	q21.2	yes	yes			cyclin dependent kinase 6 [Source:HGNC Symbol;Acc:1777]	TS		
+CDKN1B	12	12867992	12875305	p13.1	yes				cyclin-dependent kinase inhibitor 1B (p27 Kip1) [Source:HGNC Symbol;Acc:1785]	TS		
+CDKN2A	9	21967751	21995300	p21.3	yes	yes	yes	yes	cyclin-dependent kinase inhibitor 2A (melanoma p16 inhibits CDK4) [Source:HGNC Symbol;Acc:1787]	TS		
+CHD1	5	98190908	98262240	q21.1	yes				chromodomain helicase DNA binding protein 1 [Source:HGNC Symbol;Acc:1915]			
+CLU	8	27454434	27472548	p21.1	yes				clusterin (complement lysis inhibitor SP-40 sulfated glycoprotein 2 testosterone-repressed prostate message 2 apolipoprotein J) [Source:HGNC Symbol;Acc:2095]			
+CTNNB1	3	41236328	41301587	p22.1	yes	yes			catenin (cadherin-associated protein) beta 1 [Source:HGNC Symbol;Acc:2514]	oncogene		
+CUL1	7	148395006	148498128	q36.1	yes				cullin 1 [Source:HGNC Symbol;Acc:2551]			
+CYLD	16	50775961	50835846	q12.1	yes				cylindromatosis (turban tumor syndrome) [Source:HGNC Symbol;Acc:2584]	TS		
+ERCC1	19	45910591	45982086	q13.32	yes				excision repair cross-complementation group 1 [Source:HGNC Symbol;Acc:3433]	TS	yes	FA;NER
+ERCC2	19	45853095	45874176	q13.32	yes				excision repair cross-complementation group 2 [Source:HGNC Symbol;Acc:3434]	TS	yes	NER
+ERCC3	2	128014866	128051752	q14.3	yes				excision repair cross-complementation group 3 [Source:HGNC Symbol;Acc:3435]	TS	yes	NER
+ERCC4	16	14014014	14046202	p13.12	yes				excision repair cross-complementation group 4 [Source:HGNC Symbol;Acc:3436]	TS	yes	FA;NER
+ERCC5	13	103497194	103528345	q33.1	yes				excision repair cross-complementation group 5 [Source:HGNC Symbol;Acc:3437]	TS	yes	NER
+ERG_TMPRSS2	21	39739182	42880085	q22.2	yes					oncogene		
+FANCA	16	89803957	89883065	q24.3	yes				Fanconi anemia complementation group A [Source:HGNC Symbol;Acc:3582]	TS	yes	FA
+FANCC	9	97861336	98079991	q22.32	yes				Fanconi anemia complementation group C [Source:HGNC Symbol;Acc:3584]	TS	yes	FA
+FANCD2	3	10068098	10143614	p25.3	yes				Fanconi anemia complementation group D2 [Source:HGNC Symbol;Acc:3585]	TS	yes	FA
+FANCE	6	35420138	35434880	p21.31	yes				Fanconi anemia complementation group E [Source:HGNC Symbol;Acc:3586]	TS	yes	FA
+FANCF	11	22644079	22647387	p14.3	yes				Fanconi anemia complementation group F [Source:HGNC Symbol;Acc:3587]	TS	yes	FA
+FANCG	9	35073832	35080013	p13.3	yes				Fanconi anemia complementation group G [Source:HGNC Symbol;Acc:3588]	TS	yes	FA
+FBXW7	4	153242410	153457253	q31.3	yes		yes		F-box and WD repeat domain containing 7 E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:16712]	TS		
+FOXA1	14	38059189	38069245	q21.1	yes				hepatocyte nuclear factor 3	oncogene		
+FOXP1	3	71003844	71633140	p13	yes				forkhead box P1 [Source:HGNC Symbol;Acc:3823]	oncogene		
+GNAS	20	57414773	57486247	q13.32	yes	yes	yes		guanine nucleotide binding protein (G protein)	oncogene		
+HSD3B1	1	120049821	120057681	p12	yes				hydroxy-delta-5-steroid dehydrogenase			
+IDH1	2	209100951	209130798	q34	yes	yes	yes		isocitrate dehydrogenase 1 (NADP+) [Source:HGNC Symbol;Acc:5382]	oncogene		
+IDH2	15	90626277	90645736	q26.1	yes	yes	yes		isocitrate dehydrogenase 2 (NADP+) mitochondrial [Source:HGNC Symbol;Acc:5383]	oncogene		
+KDM6A	X	44732757	44971847	p11.3	yes				lysine (K)-specific demethylase 6A [Source:HGNC Symbol;Acc:12637]	both		
+KMT2C	7	151832010	152133090	q36.1	yes				lysine (K)-specific methyltransferase 2C [Source:HGNC Symbol;Acc:13726]	TS		
+KMT2D	12	49412758	49453557	q13.12	yes				lysine (K)-specific methyltransferase 2D [Source:HGNC Symbol;Acc:7133]	both		
+KRAS	12	25357723	25403870	p12.1	yes	yes	yes		Kirsten rat sarcoma viral oncogene homolog [Source:HGNC Symbol;Acc:6407]	oncogene		
+MDM2	12	69201956	69239214	q15	yes	yes			Mdm2 p53 binding protein homolog (mouse) [Source:HGNC Symbol;Acc:6973]	oncogene	yes	ATM
+MDM4	1	204485511	204542871	q32.1	yes				Mdm4 p53 binding protein homolog (mouse) [Source:HGNC Symbol;Acc:6974]	oncogene		
+MED12	X	70338406	70362303	q13.1	yes				mediator of RNA polymerase II transcription subunit 12 homolog (S. cerevisiae) [Source:HGNC Symbol;Acc:11957]	TS		
+MET	7	116312444	116438440	q31.2	yes	yes	yes		met proto-oncogene [Source:HGNC Symbol;Acc:7029]	oncogene		
+MLH1	3	37034823	37107380	p22.2	yes		yes	yes	mutL (E. coli) homolog 1 (colon cancer nonpolyposis type 2) [Source:HGNC Symbol;Acc:7127]	TS	yes	MMR
+MSH2	2	47630108	47789450	p21	yes			yes	mutS (E. coli) homolog 2 (colon cancer nonpolyposis type 1) [Source:HGNC Symbol;Acc:7325]	TS	yes	MMR
+MSH6	2	47922669	48037240	p16.3	yes			yes	mutS (E. coli) homolog 6 [Source:HGNC Symbol;Acc:7329]	TS	yes	MMR
+MYC	8	128747680	128753674	q24.21	yes	yes	yes		v-myc avian myelocytomatosis viral oncogene homolog [Source:HGNC Symbol;Acc:7553]	oncogene		
+MYCN	2	16080686	16087129	p24.3	yes	yes			v-myc avian myelocytomatosis viral oncogene neuroblastoma derived homolog [Source:HGNC Symbol;Acc:7559]	oncogene		
+NCOA2	8	71021997	71316040	q13.3	yes				nuclear receptor coactivator 2 [Source:HGNC Symbol;Acc:7669]	oncogene		
+NFE2L2	2	178092323	178257425	q31.2	yes				nuclear factor (erythroid-derived 2)-like 2 [Source:HGNC Symbol;Acc:7782]	both		
+NKX3-1	8	23536206	23540440	p21.2	yes				NK3 transcription factor related locus 1 (Drosophila) [Source:HGNC Symbol;Acc:7838]	TS		
+PALB2	16	23614488	23652631	p12.2	yes	yes		yes	partner and localizer of BRCA2 [Source:HGNC Symbol;Acc:26144]	TS	yes	FA
+PIK3CA	3	178865902	178957881	q26.32	yes	yes	yes	yes	phosphoinositide-3-kinase catalytic  alpha polypeptide [Source:HGNC Symbol;Acc:8975]	oncogene		
+PIK3CB	3	138372860	138553780	q22.3	yes				phosphoinositide-3-kinase catalytic  beta polypeptide [Source:HGNC Symbol;Acc:8976]	oncogene		
+PIK3R1	5	67511548	67597649	q13.1	yes				phosphoinositide-3-kinase regulatory subunit 1 (alpha) [Source:HGNC Symbol;Acc:8979]	TS		
+PTEN	10	89622870	89731687	q23.31	yes	yes	yes	yes	phosphatase and tensin homolog [Source:HGNC Symbol;Acc:9588]	TS		
+RAD51B	14	68286496	69196935	q24.1	yes			yes	RAD51 homolog B (S. cerevisiae) [Source:HGNC Symbol;Acc:9822]	TS	yes	HR
+RAD51C	17	56769934	56811703	q22	yes			yes	RAD51 homolog C (S. cerevisiae) [Source:HGNC Symbol;Acc:9820]	TS	yes	HR
+RB1	13	48877887	49056122	q14.2	yes	yes	yes		retinoblastoma 1 [Source:HGNC Symbol;Acc:9884]	TS		
+RNF43	17	56429861	56494956	q22	yes				ring finger protein 43 [Source:HGNC Symbol;Acc:18505]	TS		
+RUNX1	21	36160098	37376965	q22.12	yes				runt related transcription factor 1 [Source:HGNC Symbol;Acc:10471]	both		
+RYBP	3	72420976	72496069	p13	yes				RING1 and YY1 binding protein [Source:HGNC Symbol;Acc:10480]			
+SMARCA1	X	128580480	128657477	q25	yes				SWI/SNF related matrix associated actin dependent regulator of chromatin subfamily a member 1 [Source:HGNC Symbol;Acc:11097]	TS		
+SPOP	17	47676246	47755596	q21.33	yes				speckle-type POZ protein [Source:HGNC Symbol;Acc:11254]	TS		
+TP53	17	7565097	7590856	p13.1	yes	yes	yes	yes	tumor protein p53 [Source:HGNC Symbol;Acc:11998]	TS	yes	ATM;BER;NER
+ZBTB16	11	113930315	114121398	q23.2	yes				zinc finger protein 145 (Kruppel-like expressed in promyelocytic leukemia) [Source:HGNC Symbol;Acc:12930]	TS		
+ZFHX3	16	72816784	73093597	q22.3	yes				AT-binding transcription factor 1 [Source:HGNC Symbol;Acc:777]	TS		
+ADAM2	8	39483598	39813985	8p11.22	control_gene				fertilin beta [Source:HGNC Symbol;Acc:198]			
+APBB1IP	10	26667426	26894404	10p12.1	control_gene				amyloid beta (A4) precursor protein-binding family B member 1 interacting protein [Source:HGNC Symbol;Acc:17379]			
+AQP8	16	25068481	25404038	16p12.1	control_gene				aquaporin 8 [Source:HGNC Symbol;Acc:642]			
+ATG14	14	55730359	55985073	14q22.3	control_gene				ATG14 autophagy related 14 homolog (S. cerevisiae) [Source:HGNC Symbol;Acc:19962]			
+ATXN7	3	63660184	64179000	3p14.1	control_gene				spinocerebellar ataxia 7 (olivopontocerebellar atrophy with retinal degeneration) [Source:HGNC Symbol;Acc:10560]			
+C9orf47	9	91457423	91716607	9q22.1	control_gene				chromosome 9 open reading frame 108 [Source:HGNC Symbol;Acc:23669]			
+CACNG5	17	64661285	65047764	17q24.2	control_gene				calcium channel voltage-dependent gamma subunit 5 [Source:HGNC Symbol;Acc:1409]			
+CST7	20	24740871	25126325	20p11.21	control_gene				cystatin F (leukocystatin) [Source:HGNC Symbol;Acc:2479]			
+CSTF2T	10	53271368	53648567	10q21.1	control_gene				cleavage stimulation factor 3' pre-RNA subunit 2  tau variant [Source:HGNC Symbol;Acc:17086]			
+DRD1	5	174748969	174987537	5q35.2	control_gene				dopamine receptor D1 [Source:HGNC Symbol;Acc:3020]			
+ENPEP	4	111219276	111556487	4q25	control_gene				glutamyl aminopeptidase (aminopeptidase A) [Source:HGNC Symbol;Acc:3355]			
+EPN1	19	56037363	56370829	19q13.42	control_gene				epsin 1 [Source:HGNC Symbol;Acc:21604]			
+FCER1A	1	159070032	159467034	1q23.2	control_gene				Fc fragment of IgE high affinity I receptor for; alpha polypeptide [Source:HGNC Symbol;Acc:3609]			
+GRHPR	9	37239674	37566534	9p13.2	control_gene				glyoxylate reductase and hydroxypyruvate reductase [Source:HGNC Symbol;Acc:4570]			
+HDAC8	X	71549330	71792960	Xq13.1	control_gene				histone deacetylase-like 1 [Source:HGNC Symbol;Acc:13315]			
+IL1RL2	2	102696388	102966138	2q12.1	control_gene				interleukin 1 receptor like 2 [Source:HGNC Symbol;Acc:5999]			
+KRT85	12	52654547	52860679	12q13.13	control_gene				keratin 85 type II [Source:HGNC Symbol;Acc:6462]			
+L3MBTL1	20	41986436	42291628	20q13.12	control_gene				histone methyl-lysine binding protein [Source:HGNC Symbol;Acc:15905]			
+LRRC17	7	102371901	102774146	7q22.1	control_gene				leucine rich repeat containing 17 [Source:HGNC Symbol;Acc:16895]			
+MIS18A	21	33453534	33840197	21q22.11	control_gene				MIS18 kinetochore protein homolog A (S. pombe) [Source:HGNC Symbol;Acc:1286]			
+MTIF3	13	27840739	28193965	13q12.2	control_gene				mitochondrial translational initiation factor 3 [Source:HGNC Symbol;Acc:29788]			
+NAPG	18	10439904	10627613	18p11.22	control_gene				N-ethylmaleimide-sensitive factor attachment protein			
+NFXL1	4	47664665	48106708	4p12	control_gene				nuclear transcription factor gamma [Source:HGNC Symbol;Acc:7642]			
+NIT2	3	99866030	100264961	3q12.2	control_gene				nitrilase family member 2 [Source:HGNC Symbol;Acc:29878]			
+NOTCH3	19	15123619	15447984	19p13.12	control_gene				Notch homolog 3 (Drosophila) [Source:HGNC Symbol;Acc:7883]			
+OR3A3	17	3208278	3444814	17p13.2	control_gene				olfactory receptor family 3 subfamily A member 3 [Source:HGNC Symbol;Acc:8284]			
+PTAFR	1	28292661	28709972	1p35.3	control_gene				platelet activating factor receptor [Source:HGNC Symbol;Acc:9582]			
+PTGER4	5	40520133	40848867	5p13.1	control_gene				prostaglandin E receptor 4 (subtype EP4) [Source:HGNC Symbol;Acc:9596]			
+PXDNL	8	52232145	52722043	8q11.22-q11.23	control_gene				peroxidasin homolog-like (Drosophila) [Source:HGNC Symbol;Acc:26359]			
+RNF125	18	29416105	29818222	18q12.1	control_gene				ring finger protein 125,  E3 ubiquitin protein ligase [Source:HGNC Symbol;Acc:21150]			
+RSF1	11	77186242	77719550	11q14.1	control_gene				hepatitis B virus x associated protein [Source:HGNC Symbol;Acc:18118]			
+SPDYA	2	28865438	29210522	2p23.2	control_gene				speedy homolog 1 (Drosophila) [Source:HGNC Symbol;Acc:30613]			
+TEX11	X	69748766	70128613	Xp11	control_gene				testis expressed sequence 11 [Source:HGNC Symbol;Acc:11733]			
+TK2	16	66377324	66775957	16q21	control_gene				thymidine kinase 2, mitochondrial [Source:HGNC Symbol;Acc:11831]			
+TOP3B	22	22156707	22496962	22q11.22	control_gene				DNA topoisomerase III beta [Source:HGNC Symbol;Acc:11993]		yes	HR
+VNN3	6	132915856	133185375	6q23.2	control_gene				vanin 3 [Source:HGNC Symbol;Acc:16431]			
+FAM60A	12	31273488	31633615	12p11.21	control_gene				family with sequence similarity 60, member A [Source:HGNC Symbol;Acc:30702]			
+MESDC2	15	81066486	81462214	15q25.1	control_gene				Mesoderm development candidate 2 [Source:HGNC Symbol;Acc:13520]			
+FAM183B	7	38535089	38914878	7p14.1	control_gene				family with sequence similarity 183, member B [Source:HGNC Symbol;Acc:34511]			
+UGT2B17	4	69204672	69579402	4q13.2	other				UDP glycosyltransferase 2 family, polypeptide B17 [Source:HGNC Symbol;Acc:12547]			
+ZBTB9	6	33232441	33614813	6p21.32	other				zinc finger and BTB domain containing 9 [Source:HGNC Symbol;Acc:28323]			
