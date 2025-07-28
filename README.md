@@ -19,7 +19,7 @@ This repository provides the **Singularity packages** to run the PCF\_SELECT pip
 
 Depending on the panel version, a specific Singularity package must be used (available under [`singularity/versions/`](singularity/versions/)).
 
-Note that the PCF_SELECT singularity package takes in input BAM files. An independent Singularity package to preprocess the raw sequencing data (.fastq format) as per the described PCF_SELECT preprocessing pipeline is available at [`preProcess.sif`](ZENODO_URL).
+Note that the PCF_SELECT singularity package takes in input BAM files. An independent Singularity package to preprocess the raw sequencing data (.fastq format) as per the described PCF_SELECT preprocessing pipeline is available on [`Zenodo`](ZENODO_URL).
 
 ## Execute the PCF\_SELECT pipeline <a name="execute-pcf"></a>
 
