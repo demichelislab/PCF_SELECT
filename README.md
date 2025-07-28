@@ -5,6 +5,7 @@
 - [Introduction](#intro)
 - [Execute the PCF\_SELECT pipeline](#execute-pcf)
   * [Declare the environment variables](#declare-the-environment-variables)
+  * [Run the Pre-processing PCF\_SELECT pipeline](#run-the-preprocess)
   * [Run the whole PCF\_SELECT pipeline](#run-the-whole-pcfs-pipeline)
     + [Sample Information File (SIF)](#sample-information-file--sif-)
   * [List apps present in the singularity package](#list-apps-present-in-the-singularity-package)
@@ -16,7 +17,9 @@
 This repository provides the **Singularity packages** to run the PCF\_SELECT pipeline described in:  
 **[Allele-informed copy number evaluation of plasma DNA samples from metastatic prostate cancer patients: the PCF_SELECT consortium assay - Orlando et al., NAR Cancer (2022)](https://doi.org/10.1093/narcan/zcac016)**  
 
-Depending on the panel version, a specific Singularity package must be used (available under [`singularity/versions/`](singularity/versions/)).  
+Depending on the panel version, a specific Singularity package must be used (available under [`singularity/versions/`](singularity/versions/)).
+
+Note that the PCF_SELECT singularity packages takes in input BAM files. An independent Singularity package to process the raw sequencing data (.fastq format) as per the described PCF_SELECT preprocessing pipeline is available at [`preProcess.sif`](ZENODO_URL)).
 
 ## Execute the PCF\_SELECT pipeline <a name="execute-pcf"></a>
 
@@ -29,6 +32,33 @@ export SINGULARITY_CACHEDIR=<Temporary folder>
 export SINGULARITY_LOCALCACHEDIR=<Temporary folder>
 export SINGULARITY_CLEANENV=1
 ```
+
+### Run the Pre-processing PCF\_SELECT pipeline <a name="run-the-preprocess"></a>
+```
+singularity run --app preProcess preProcess.sif -h
+usage: pre-process.py [-h] -i INPUTDIR -o OUTDIR -t TMPDIR [-n NCORES] [-m NMEM] [-f FWDPATTERN] [-r REVPATTERN] [-c CLIPPING]
+
+Arguments for running preProcess
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i INPUTDIR, --inputDir INPUTDIR
+                        Directory where to search files to analyse
+  -o OUTDIR, --outDir OUTDIR
+                        Directory where to store results
+  -t TMPDIR, --tmpDir TMPDIR
+                        Temporary directory
+  -n NCORES, --nCores NCORES
+                        N cores to be allocated for the analysis
+  -m NMEM, --nMem NMEM  Amount memory to be allocated for the analysis in MB! (eg 50GB = 50000)
+  -f FWDPATTERN, --fwdPattern FWDPATTERN
+                        Pattern for selecting FWD fastq files (comma separated)
+  -r REVPATTERN, --revPattern REVPATTERN
+                        Pattern for selecting REV fastq files
+  -c CLIPPING, --clipping CLIPPING
+                        comma-separated 4 values => R1 5', R2 5', R1 3', R2 3'
+```
+
 ### Run the whole PCF\_SELECT pipeline <a name="run-the-whole-pcfs-pipeline"></a>
 ```
 singularity run --app PCFS pcfselect.sif -h
