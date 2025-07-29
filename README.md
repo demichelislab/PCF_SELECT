@@ -67,8 +67,8 @@ usage: pcfs.py [-h] -s SIF -o OUTDIR -t TMPDIR [-n NCORES]
 Arguments for running PCF-SELECT
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -s SIF, --sif SIF     Sample Info Description
+  -h, --help            Show this help message and exit
+  -s SIF, --sif SIF     Sample Info File description
   -o OUTDIR, --outDir OUTDIR
                         Directory where to store results
   -t TMPDIR, --tmpDir TMPDIR
@@ -77,7 +77,7 @@ optional arguments:
                         N cores to be allocated for the analysis
 ```
 #### Sample Information File (SIF) <a name="sample-information-file--sif-"></a>
-The Sample Information File (SIF) is a TSV (tab-separated) text file that contains the location of Tumour samples to analyse, together with their Normal counterpart.
+The Sample Information File (SIF) is a TSV (tab-separated) text file that contains the location of Tumour samples to analyse, together with their Normal (Control) counterpart.
 It's **crucial** to name the columns "Tumour" and "Normal" in order to recognise the right columns to analyse. Samples are intended in [BAM format](https://samtools.github.io/hts-specs/SAMv1.pdf). 
 
 | Patient | Tumour | Normal |
@@ -105,13 +105,13 @@ TC_ESTIMATION
 ```
 
 ### Run apps other than PCFS <a name="run-apps-other-than-pcfs"></a>
-In this example we list the arguments to run the app "ABEMUS_2_ANNOVAR"
+In this example, we list the arguments to run the app "ABEMUS_2_ANNOVAR"
 ```
 run --app ABEMUS_2_ANNOVAR pcf_select_latest.sif -h
 usage: /usr/local/bin/pcfs/scripts/ABEMUS_to_annovar.R [-h] -s ABEMUSFILE -o OUTDIR -n NCORES
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            Show this help message and exit
   -s ABEMUSFILE, --abemusFile ABEMUSFILE
                         File ABEMUS containing the SNPs to be converted
   -o OUTDIR, --outDir OUTDIR
@@ -123,8 +123,8 @@ optional arguments:
 ## Acknowledgements <a name="acknow"></a>
 | Author | Institution | Contribution |
 | --------- | ----------- | ------------ |
-| Francesco Orlando, PhD | Department of CIBIO, University of Trento | Main author of PCF\_SELECT |
-| Stefano Pirrò, PhD | Cancer Institute, UCL | Porting of PCF\_SELECT on singularity |
-| Osvaldas Vainauskas | Cancer Institute, UCL | Contributor |
-| Prof. Francesca Demichelis | Department of CIBIO, University of Trento | Principal Investigator |
-| Prof. Gerhardt Attard | Cancer Institute, UCL | Principal Investigator |
+| Prof. Francesca Demichelis | CIBIO Department, University of Trento, Italy | Principal Investigator |
+| Prof. Gerhardt Attard | Cancer Institute, UCL, UK | Principal Investigator |
+| Francesco Orlando, PhD | CIBIO Department, University of Trento, Italy | Main author of PCF\_SELECT |
+| Stefano Pirrò, PhD | Cancer Institute, UCL, UK | Porting of PCF\_SELECT on singularity |
+| Osvaldas Vainauskas, PhD | Cancer Institute, UCL, UK | Contributor |
