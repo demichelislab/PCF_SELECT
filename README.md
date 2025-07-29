@@ -14,7 +14,7 @@
 
 ## Introduction <a name="intro"></a>
 
-This repository provides the **Singularity packages** to run the PCF\_SELECT pipeline described in:  
+This repository provides the **Singularity packages** to run the PCF\_SELECT pipeline originally described in:  
 **[Allele-informed copy number evaluation of plasma DNA samples from metastatic prostate cancer patients: the PCF_SELECT consortium assay - Orlando et al., NAR Cancer (2022)](https://doi.org/10.1093/narcan/zcac016)**  
 
 Depending on the panel version, a specific Singularity package must be used (available under [`singularity/versions/`](singularity/versions/)).
@@ -24,7 +24,7 @@ Note that the PCF_SELECT singularity package takes in input BAM files. An indepe
 ## Execute the PCF\_SELECT pipeline <a name="execute-pcf"></a>
 
 ### Declare the environment variables <a name="declare-the-environment-variables"></a>
-In case your HPC do have issues or special requirements in managing the temporary space (/tmp folder), it's better to declare a set of environment variables that would allow you to choose a custom folder for storing temporary files and folders:
+In case your HPC has issues or special requirements in managing the temporary space (/tmp folder), it's advisable to declare a set of environment variables that would allow you to choose a custom folder for storing temporary files and folders:
 ```
 export SINGULARITY_BINDPATH=<Folder you want to bind to the singularity image>
 export SINGULARITY_TMPDIR=<Temporary folder>
